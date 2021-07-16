@@ -1,0 +1,51 @@
+
+body{
+    margin: auto;
+    height: auto;
+    background-color: grey;
+}
+
+#container{
+    margin-top: 70px;
+    display: flex;
+    justify-content:space-evenly;
+
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: white;
+}
+
+h3{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+#fahrenheit, #celsius, #kelvin{
+  background-color:rgb(134, 128, 128);
+  width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 11px hsl(0, 100%, 2%);
+  
+}
+
+.ke{
+    display: flex;
+    flex-direction: column;
+}
+
+.icone{
+    margin: 10px;
+}
+
+p{
+    text-align: center;
+}
